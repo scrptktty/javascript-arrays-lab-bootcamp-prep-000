@@ -17,6 +17,11 @@ function destructivelyRemoveLastKitten() {
 
 function destructivelyRemoveFirstKitten() {}
 
+// function destructivelyRemoveElementFromBeginningOfArray(a, b) {
+//   a.shift(b)
+//   return a
+// }
+
 function appendKitten(name) {}
 
 function prependKitten(name) {}
