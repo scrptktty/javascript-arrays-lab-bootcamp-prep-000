@@ -15,11 +15,6 @@ function destructivelyRemoveLastKitten() {
   return kittens
 }
 
-// function destructivelyRemoveElementFromEndOfArray(a, b) {
-//   a.pop(b)
-//   return a
-// }
-
 function destructivelyRemoveFirstKitten() {}
 
 function appendKitten(name) {}
