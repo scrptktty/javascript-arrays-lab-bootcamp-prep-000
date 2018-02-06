@@ -20,6 +20,4 @@ function removeLastKitten() {
   kittens.pop()
 }
 
-function removeFirstKitten() {
-  
-}
+function removeFirstKitten() {}
