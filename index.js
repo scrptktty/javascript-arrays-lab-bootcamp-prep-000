@@ -28,19 +28,19 @@ function appendKitten(name) {
   return [...kittens, name]
 }
 
-//end 
+//add to the end 
 
 function prependKitten(name) {
   return [name, ...kittens]
 }
 
-//beginning
+//pre- as in before, beginning
 
 function removeLastKitten() { 
   return kittens.slice(0, kittens.length - 1)
 }
 
-//
+// The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
 
 function removeFirstKitten(kittens) {
   return kittens.slice(1)
