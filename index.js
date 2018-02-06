@@ -10,7 +10,15 @@ function destructivelyPrependKitten(name) {
   return kittens.unshift(name)
 }
 
-function destructivelyRemoveLastKitten(name) {}
+function destructivelyRemoveLastKitten(kittens, name) {
+  kittens.pop(name)
+  return kittens
+}
+
+// function destructivelyRemoveElementFromEndOfArray(a, b) {
+//   a.pop(b)
+//   return a
+// }
 
 function destructivelyRemoveFirstKitten() {}
 
