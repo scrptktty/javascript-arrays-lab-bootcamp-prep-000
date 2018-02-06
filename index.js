@@ -16,3 +16,6 @@ function appendKitten(name) {}
 
 function prependKitten(name) {}
 
+function removeLastKitten() {
+  kittens.pop()
+}
