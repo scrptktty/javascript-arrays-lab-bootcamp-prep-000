@@ -25,12 +25,17 @@ function destructivelyRemoveFirstKitten() {
 //The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
 
 function appendKitten(name) {
-  return [name, ...kittens]
+  return [...kittens, name]
 }
+
+
+//end 
 
 function prependKitten(name) {
   return [name, ...kittens]
 }
+
+//beginning
 
 function removeLastKitten() { 
   return kittens.pop()
