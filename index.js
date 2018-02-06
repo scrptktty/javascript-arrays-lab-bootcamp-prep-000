@@ -15,6 +15,8 @@ function destructivelyRemoveLastKitten() {
   return kittens
 }
 
+//The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+
 function destructivelyRemoveFirstKitten() {
   kittens.shift()
   return kittens
